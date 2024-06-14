@@ -1,0 +1,46 @@
+<!DOCTYPE Html>
+<html>
+<head>
+    <title>Borrar datos</title>
+</head>
+<body>
+	<img src="logo.png" alt="Imagen de inicio de sesión" height="100">
+	<style>
+		body{
+			background-image: url("fondo4.jpg");
+		}
+		h2{
+			font-family: "Galak Pro Demo";
+			font-size: 25px;
+		}
+		form{
+			font-family: Arial;
+			font-size: 18px;
+		}
+		input{
+			font-family: "Century Gothic";
+			font-size: 15px;
+			  background-color: #E6E9EB ;
+           		 cursor: pointer;
+		}
+		.return-button{
+			font-family: "Century Gothic";
+			font-size: 15px;
+			background-color: #E6E9EB;
+       	    color: #000000 ;
+       		cursor: pointer;
+		}
+	</style>
+<h2>Borrar datos</h2>
+
+<form method="post" action="Eliminar2.php">
+    ID del dato a borrar: <input type="text" name="id">
+	<a href="Eliminar2.php">
+		<input type="submit" value="Borrar"></a>
+</form>
+<form action="empresa.html" method="get">
+		 <button class="return-button" onclick="window.location.href = 'empresa.html';">Regresar</button>
+	</form>
+	
+</body>
+</html>

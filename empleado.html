@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Empleado</title>
+<style>
+    body {
+        font-family: "Galak Pro Demo";
+		font-size: 20px;
+        margin: 0;
+        padding: 0;
+        background-image: url("fondo.jpg")
+    }
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+        background-color: #D7FAFE;
+        border: 1px solid #ccc;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        position: relative;
+    }
+    .header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .header h1 {
+        margin: 0;
+        padding: 0;
+        color: #333;
+    }
+    .return-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+    .logo {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 170px;
+    }
+    .content {
+        text-align: center;
+    }
+    .buttons {
+        margin-top: 20px;
+    }
+    .buttons button {
+        margin: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border: 1px solid;
+        outline: none;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <button class="return-button" onclick="window.location.href = 'acceso.html';">Regresar</button>
+    <div class="header">
+        <h1>Empleado</h1>
+    </div>
+    <img src="logo.png" alt="Logo de la empresa" class="logo">
+    <div class="content">
+        <div class="buttons">
+			<a href="consulta.html">
+            <button onclick="window.location.href = 'consultar_empleado.html';">Consultar</button></a>
+            
+			<a href="principal2.html">
+				<button onclick="window.location.href = 'agregar_empleado.html';">Agregar</button></a>
+			
+				<a href="eliminar.html">
+					<button onclick="window.location.href = 'eliminar_empleado.html';">Eliminar</button></a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+

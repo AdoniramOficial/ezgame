@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Consultar</title>
+</head>
+<body>
+		<style>
+		body{
+			background-image: url("fondo4.jpg");
+		}
+		h1{
+			font-family: "Galak Pro Demo";
+		}
+		input{
+			font-family: "Century Gothic";
+			font-size: 15px;
+			  background-color: #E6E9EB ;
+           		 cursor: pointer;
+		}
+		
+		.return-button{
+			font-family: "Century Gothic";
+			font-size: 15px;
+			background-color: #E6E9EB;
+       	    color: #000000 ;
+       		cursor: pointer;
+		}
+		
+		form{
+			font-family: Arial;
+			font-size: 20px;
+		}
+	</style>
+<h1><center>Este programa permite consultar informacion</center></h1>
+<form action ="consulta2.php" method="GET">
+Consultar la base de datos:
+<input type="Submit" value="Consultar" name="Consulta">
+</form>
+	<form action="cliente.html" method="get">
+		 <button class="return-button" onclick="window.location.href = 'cliente.html';">Regresar</button>
+	</form>
+</body>
+</html>

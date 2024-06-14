@@ -1,0 +1,57 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Agregar</title>
+<meta charset="UTF=8">
+</head>
+<body background="fondo2.jpg">
+	<img src="logo.png" alt="Imagen de inicio de sesión" height="150">
+	<style>
+		caption{
+			font-family: "All Genders v4";
+			color: #FFFFFF;
+			background-color: #2163C2 ;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+			margin: auto;
+		}
+		h2{
+		font-family: "Galak Pro Demo";
+		margin: auto;
+		background-color: #FFFFFF;
+		}
+		table{
+		background-color: #BEEDF9;
+		margin: auto;
+		}
+		th{
+		font-family: "Century Gothic";
+	}
+</style> 
+<br><br>
+<form action="agregar3.php" method="get">
+<h2><p align="center"><font size="7"><b>Registros</b></font></p></h2><br> 
+<font color="#000000"><table align="center">
+<caption>Registrar un nuevo producto a la base de datos</caption>
+<tr>
+<th>Nombre</th>
+<th>Costo</th>
+<th>Empresa</th>
+<th>Clasificaci&oacute;n</th>
+<th>Agregar</th>
+	<th> </th>
+  </tr>
+	<tr></tr>
+<td><input type="text" name="nom" value=""></td>
+	  <td><input type="text" name="presio" value=""></td>
+	  <td><input type="text" name="em" value=""></td>
+	  <td><input type="text" name="clas" value=""></td>
+<td><a href="agregar3.php">
+<input type="submit" name="agregar" value="agregar"></a></td>
+</table>
+</font>
+	</form>
+	<form action="producto.html" method="get">
+		 <button class="return-button" onclick="window.location.href = 'producto.html';">Regresar</button>
+	</form>
+</body>
+</html>

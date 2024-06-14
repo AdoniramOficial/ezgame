@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Empresa</title>
+<style>
+    body {
+        font-family:"Galak Pro Demo";
+        margin: 0;
+        padding: 0;
+        background-image: url(fondo3.jpg)
+    }
+    .container {
+		font-family: "Century Gothic";
+        max-width: 800px;
+        margin: 50px auto;
+        background-color: #D7FAFE;
+        border: 1px solid #ccc;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        position: relative;
+    }
+    .header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .header h1 {
+		font-size: 35px;
+        margin: 0;
+        padding: 0;
+        color: #333;
+    }
+    .return-button {
+		font-family: "Century Gothic";
+		font-size: 15px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: #2C91BD;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+    .logo {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 150px;
+    }
+    .content {
+        text-align: center;
+    }
+    .buttons {
+        margin-top: 20px;
+    }
+    .buttons button {
+        margin: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border: 1px solid;
+        outline: none;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <button class="return-button" onclick="window.location.href = 'acceso.html';">Regresar</button>
+    <div class="header">
+        <h1>Empresa</h1>
+    </div>
+    <img src="logo.png" alt="Logo de la empresa" class="logo">
+    <div class="content">
+        <div class="buttons">
+			<a href="consulta3.html">
+            <button onclick="window.location.href = 'consultar_empresa.html';">Consultar</button></a>
+			<a href="agregar1.html">
+				<button onclick="window.location.href = 'agregar_empresa.html';">Agregar</button></a>
+			<a href="eliminar2.html">
+				<button onclick="window.location.href = 'eliminar_empresa.html';">Eliminar</button></a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

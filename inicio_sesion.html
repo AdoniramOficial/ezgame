@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iniciar Sesión</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url(fondo.jpg)
+    }
+    .container {
+        height: 200px;
+		width: 400px;
+        margin: 200px auto;
+        background-color: #D7FAFE;
+        border: 2px solid #ccc;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .header h2 {
+        margin: 0;
+        padding: 0;
+        color: #333;
+    }
+    .content {
+        display: flex;
+        align-items: center;
+    }
+    .content img {
+        width: 100px; /* Ancho de la imagen */
+        height: auto; /* Altura autoajustable */
+        margin-right: 20px;
+    }
+    .form-group {
+        margin-bottom: 30px;
+    }
+    .form-group label {
+        display: block;
+        font-weight: bold;
+		
+    }
+    .form-group input {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+		
+    }
+    .form-group input[type="submit"] {
+        background-color: #0064A7;
+        color: #fff;
+        cursor: pointer;
+    }
+	 .password {
+        margin-bottom:-110px;  
+			float:right;
+    }
+</style>
+</head>
+<body>
+  <img src="logo.png" alt="Imagen de inicio de sesión">
+<form action="acceso.html" method="get">
+<div class="container">
+    <div class="header">
+        <h2>Iniciar Sesi&oacute;n</h2>
+    </div>
+    <div class="content">
+        <img src="usuario.png" alt="Imagen de inicio de sesión">
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="id">ID:</label>
+                <input type="text" id="id" name="id" required>
+				 <label for="id">contraseña:</label>
+                <input type="text" id="id" name="id" required>
+            </div>
+		
+            <div class="form-group">
+				<a href="pricipal2.php">
+					<input type="submit" value="Iniciar Sesión"></a>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

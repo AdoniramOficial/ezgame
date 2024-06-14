@@ -1,0 +1,64 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Agregar</title>
+<meta charset="UTF=8">
+</head>
+<body background="fondo2.jpg">
+	<img src="logo.png" alt="Imagen de inicio de sesión" height="150">
+<style>
+	h2{
+		font-family: "Galak Pro Demo";
+		margin: auto;
+		background-color: #FFFFFF;
+	}
+	
+	caption{
+			font-family: "All Genders v4";
+			color: #FFFFFF;
+			background-color: #2163C2 ;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+		}
+	
+	table{
+		background-color: #BEEDF9;
+		margin: auto;
+	}
+	
+	th{
+		font-family: "Century Gothic";
+	}
+	</style> 
+<br><br>
+<form action="agregar2.php" method="get">
+<h2><p align="center"><font size="7" color="#000000"><b>Registros</b></font></p></h2>
+<font color="#000000"><table>
+<caption>Registrar un nuevo usuario a la base de datos</caption>
+<tr>
+<th>Nombre</th>
+	<th>Apellido paterno</th>
+	<th>Apellido materno</th>
+<th>Direcci&oacute;n</th>
+<th>Tel&eacute;fono</th>
+<th>Correo</th>
+<th>Pa&iacute;s</th>
+<th>Agregar</th>
+	<th> </th>
+  </tr>
+<td><input type="text" name="nom" value=""></td>
+	  <td><input type="text" name="AP" value=""></td>
+	  <td><input type="text" name="AM" value=""></td> 
+<td><input type="text" name="dirrect" value=""></td>
+<td><input type="text" name="tel" value=""></td>
+<td><input type="text" name="corr" value=""></td>
+<td><input type="text" name="pais" value=""></td>
+<td><a href="agregar2.php">
+<input type="submit" name="agregar" value="agregar"></a></td>
+</table>
+</font>
+	</form>
+	<form action="cliente.html" method="get">
+		 <button class="return-button" onclick="window.location.href = 'cliente.html';">Regresar</button>
+	</form>
+</body>
+</html>

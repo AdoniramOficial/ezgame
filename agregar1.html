@@ -1,0 +1,65 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Agregar</title>
+<meta charset="UTF=8">
+</head>
+<body background="fondo2.jpg" >
+	<img src="logo.png" alt="Imagen de inicio de sesión" height="150">
+	<style>
+		body{
+			background-image: url("fondo2.jpg");
+		}
+		
+		h2{
+			height: 50PX;
+			Weight:auto;
+			font-size: 20px;
+
+		}
+		
+		b{
+			font-family: "Galak Pro Demo";
+		}
+		
+		caption{
+			font-family: "All Genders v4";
+			color: #FFFFFF;
+			background-color: #2163C2 ;
+			 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+		}
+		
+		th{
+			font-family: "Century Gothic";
+		}
+		
+		table{
+			background-color: #BEEDF9;
+			margin: auto;
+		}
+		
+		button{
+			margin-right: auto;
+		}
+</style> 
+<br><br>
+<form action="agregar1.php" method="get">
+<h2><p align="center"><font size="7" color="#000000"><b>Registros</b></font></p></h2>
+<font color="#000000"><table>
+<caption><font size="4">Registrar nuevo usuario a la base de datos</font></caption>
+<tr>
+<th>Nombre</th>
+<th>Agregar</th>
+	<th></th>
+  </tr>
+<td><input type="text" name="nom" value=""></td>
+<td><a href="agregar1.php">
+<input type="submit" name="agregar" value="agregar"></a></td>
+</table>
+</font>
+	</form>
+	<form action="empresa.html" method="get">
+		 <button class="return-button" onclick="window.location.href = 'empresa.html';">Regresar</button>
+	</form>
+</body>
+</html>
